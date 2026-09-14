@@ -18,4 +18,84 @@ O projeto foi criado para praticar entrada de dados, estrutura condicional com `
 
 ## 🎯 Objetivo do sistema
 
-- Classificar o consumo de água
+- Classificar o consumo de água de diferentes tipos de imóveis.
+- Exibir mensagens educativas conforme o perfil de consumo.
+- Incentivar práticas de economia de água.
+- Praticar conceitos fundamentais de programação em Python.
+
+## 🛠️ Linguagem utilizada
+
+- **Python 3.10+** (uso de `match/case` para estrutura condicional)
+
+## 📋 Regras de classificação
+
+O programa aplica as seguintes regras de negócio:
+
+| Tipo de Imóvel | Consumo (m³) | Mensagem Exibida |
+|----------------|--------------|------------------|
+| Comercial | Qualquer valor | Tarifa comercial aplicada – consulte o plano corporativo |
+| Apartamento | < 10 | Consumo econômico – excelente controle de água! |
+| Apartamento ou Casa | ≤ 25 | Consumo moderado – dentro do padrão residencial |
+| Outros casos | > 25 | Consumo excessivo – adote medidas de economia e verifique vazamentos |
+
+## ▶️ Como executar
+
+### Pré-requisitos
+
+- Ter o [Python](https://www.python.org/downloads/) 3.10 ou superior instalado.
+- Ter acesso a um terminal ou ao Visual Studio Code.
+
+### Execução pelo terminal
+
+1. Clone o repositório:
+
+```bash
+git clone [https://github.com/Prada-07/desconto-progressivo.git](https://github.com/Prada-07/desconto-progressivo.git)
+```
+
+2. Acesse a pasta do projeto:
+
+```bash
+cd desconto-progressivo
+```
+
+3. Execute o programa:
+
+```bash
+python app.py
+```
+
+4. Informe o tipo de imóvel (`comercial`, `casa` ou `apartamento`) e o consumo mensal em metros cúbicos.
+
+## 💻 Exemplo de resultado
+
+```text
+Digite seu tipo de imóvel:
+-> apartamento
+Digite o consumo mensal em metros cúbicos:
+-> 8
+
+Consumo econômico - excelente controle de água!
+```
+
+## 📁 Estrutura do projeto
+
+```text
+desconto-progressivo/
+├── app.py       # Código principal do classificador
+└── README.md    # Documentação do projeto
+```
+
+## ℹ️ Observação
+
+As mensagens exibidas são educativas e têm como objetivo conscientizar o usuário sobre o consumo de água. O programa não realiza cálculos de tarifa ou cobrança, apenas classifica o perfil de consumo.
+
+## 👤 Autor
+
+Desenvolvido por **Leonardo Prada**.
+
+[![GitHub](https://img.shields.io/badge/Leonardo%20Prada-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Prada-07)
+
+---
+
+<p align="center">💧 Projeto desenvolvido para fins educacionais.</p>
